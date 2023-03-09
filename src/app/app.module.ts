@@ -10,6 +10,7 @@ import { CarouselComponent } from './sections/carousel/carousel.component';
 import { GuaranteeComponent } from './sections/guarantee/guarantee.component';
 import { FaqComponent } from './sections/faq/faq.component';
 import { ButtonComponent } from './shared/button/button.component';
+import { StickyHeaderDirective } from './directives/sticky-header.directive';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ButtonComponent } from './shared/button/button.component';
     CarouselComponent,
     GuaranteeComponent,
     FaqComponent,
-    ButtonComponent
+    ButtonComponent,
+    StickyHeaderDirective
   ],
   imports: [
     BrowserModule

@@ -1,9 +1,30 @@
-:host-context(.background) {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  background: url("../../../assets/img/background.png") no-repeat center center fixed;
+.bg {
+  &__ball {
+    background: url("../../../assets/img/bg-ball.png") no-repeat center center
+      fixed;
+  }
+  &__dollar {
+    background: url("../../../assets/img/bg-dollar.png") no-repeat center center
+      fixed;
+  }
+  &__bell {
+    background: url("../../../assets/img/bg-bell.png") no-repeat center center
+      fixed;
+  }
+  &__clover {
+    background: url("../../../assets/img/bg-clover.png") no-repeat center center
+      fixed;
+  }
+  &__ice {
+    background: url("../../../assets/img/bg-ice.png") no-repeat center center
+      fixed;
+  }
+  &__watermelon {
+    background: url("../../../assets/img/bg-watermeloon.png") no-repeat center center
+      fixed;
+  }
+  &__skull {
+    background: url("../../../assets/img/bg-skull.png") no-repeat center center
+      fixed;
+  }
 }

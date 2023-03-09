@@ -16,3 +16,14 @@
        url('../fonts/bpg-arials-caps/bpg-arial-caps-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/bpg-arials-caps/bpg-arial-caps-webfont.svg#bpg_arial_capsregular') format('svg'); /* Legacy iOS */
 }
+@font-face {
+  font-family: 'bpg_nino_mtavruli_elite';
+  src: url('../fonts/bpg-nino-elite/bpg-nino-mtavruli-bold-bl-edition-webfont.eot');
+  src: url('../fonts/bpg-nino-elite/bpg-nino-mtavruli-bold-bl-edition-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/bpg-nino-elite/bpg-nino-mtavruli-bold-bl-edition-webfont.woff') format('woff'),
+       url('../fonts/bpg-nino-elite/bpg-nino-mtavruli-bold-bl-edition-webfont.ttf') format('truetype'),
+       url('../fonts/bpg-nino-elite/bpg-nino-mtavruli-bold-bl-edition-webfont.svg#bpg_nino_mtavruli_elite') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
